@@ -144,6 +144,11 @@ nav ul li a:hover {
    width: 50%;
 }
 
+/***** feedback-title *****/
+.feedback-title h1 {
+    padding: 40px 0;
+    font-size: 1.4em;
+}
 
 /***** contact-section *****/
 .contact-section {
