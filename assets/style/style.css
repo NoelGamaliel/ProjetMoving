@@ -163,6 +163,7 @@ nav ul li a:hover {
     font-size: 1.4em;
     margin-bottom: 15px;
 }
+
 .contact-content {
     margin-bottom: 10px;
 }
@@ -181,14 +182,17 @@ form {
 form input[type="text"],[type="password"],[type="email"] {
     padding: 4px 6px;
 }
+
 form input[type="submit"] {
     padding: 4px 6px;
+    margin-bottom: 15px;
 }
 
 form textarea {
     padding: 4px 6px;
 }
 
+/****** Footer *****/
 footer {
     background-color: #b05933;
     height: 40px;
@@ -200,4 +204,69 @@ footer {
 .footer-content p {
     text-align: center;
     color: #fff;
+}
+
+
+
+@media screen and (min-width: 350px) and (max-width: 500px) {
+    /***** Media queries ******/
+    .container {
+        width: 65%;
+        margin: auto;
+    }
+    
+    header {
+        height: 80px;
+    }
+    /***** Section hero ******/
+     .hero-content h1 {
+        font-size: 1.1em;
+    }
+    .hero-btn a {
+        padding: 2px 5px;
+    }
+
+    /****** About *****/
+    .about-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /****** Description Services *****/
+    .services-section {
+        height: 140vh;
+        background: linear-gradient(135deg, rgba(0, 6, 0, 0.863), rgb(4, 35, 45)), url("/assets/images/moving_.jpeg");
+        background-size: cover;
+        background-position: center;
+        color:#fff;
+    }
+
+    .services-section .section-content {
+        display: flex;
+        flex-direction: column;
+    }
+     
+    /***** feedback-title *****/
+    .feedback-section {
+        display: none;
+    }
+
+    /***** Contact Section *****/
+    .contact-section {
+        background: #fff;
+        color: #af522a;
+        margin-bottom: 50px;
+    }
+    .contact-description {
+        padding: 5px 15px;
+        box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+        margin-bottom: 15px;
+    }
+    form input[type="submit"] {
+        padding: 4px 6px;
+        margin-bottom: 12px;
+        background-color: #af522a;
+        color: #fff;
+        border: 1px solid #ff9595;
+    }
 }
