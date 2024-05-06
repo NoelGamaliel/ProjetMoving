@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: "poppins", sans-serif;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #b05933;
+    height: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav .logo {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    margin: 5px auto;
+}
+
+nav ul li {
+    padding: 0 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav ul li a:hover {
+    border-bottom: 3px solid #fff;
+}
+
+.btn a {
+    border: 1px solid #fff;
+    padding: 5px 15px;
+    color: #af522a;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+
+/********** hero section ***************/
+.hero-section {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(0, 6, 0, 0.863), rgb(4, 35, 45)), url("/assets/images/moving_.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content h1 {
+    padding: 10px 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.hero-content p {
+    padding: 10px 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    margin-bottom: 35px;
+}
+
+.hero-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-btn a {
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #af522a;
+}
+
+/****** About *****/
+.about-content {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 2em; 
+}
+
+.about-description  h1 {
+    padding: 55px 0;
+    font-size: 1.4em;
+}
+
+.about-images img {
+    width: 100%;
+    padding: 25px 0;
+}
+
+/********* Description Services *****/
+.services-section {
+    height: 60vh;
+    background: linear-gradient(135deg, rgba(0, 6, 0, 0.863), rgb(4, 35, 45)), url("/assets/images/moving_.jpeg");
+    background-size: cover;
+    background-position: center;
+    color:#fff;
+}
+
+.services-section .section-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+}
+
+.section-content-title h1 {
+    padding: 50px 1px;
+    font-size: 1.4em;
+    margin-bottom: 15px;
+}
+
+.border {
+   border-bottom: 2px solid #af522a;
+   width: 50%;
+}
+
+
+/***** contact-section *****/
+.contact-section {
+    height: 75vh;
+    background: linear-gradient(135deg, rgba(0, 6, 0, 0.863), rgb(4, 35, 45)), url("/assets/images/moving_.jpeg");
+    background-size: cover;
+    background-position: center;
+    color:#fff; 
+}
+.contact-title h1{
+    padding: 40px 0px;
+    font-size: 1.4em;
+    margin-bottom: 15px;
+}
+.contact-content {
+    margin-bottom: 10px;
+}
+
+.contact-description {
+    padding: 5px 15px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+form input[type="text"],[type="password"],[type="email"] {
+    padding: 4px 6px;
+}
+form input[type="submit"] {
+    padding: 4px 6px;
+}
+
+form textarea {
+    padding: 4px 6px;
+}
+
+footer {
+    background-color: #b05933;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content p {
+    text-align: center;
+    color: #fff;
+}
