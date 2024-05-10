@@ -43,18 +43,29 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #ffffff;
+    transition: all 0.5s ease-in;
 }
 
 nav ul li a:hover {
     border-bottom: 3px solid #fff;
+    animation: alternate  0.5s ease-in-out;
 }
 
 .btn a {
     border: 1px solid #fff;
-    padding: 5px 15px;
+    padding: 5px 25px;
     color: #af522a;
     background-color: #fff;
+    transition: all 0.5s ease;
+}
+
+.btn a:hover {
+    border: 1px solid #ffffff;
+    padding: 5px 25px;
+    color: #ffffff;
     font-weight: bold;
+    background: transparent;
+    animation: alternate  0.5s ease-out;
 }
 
 
@@ -96,9 +107,16 @@ nav ul li a:hover {
 
 .hero-btn a {
     padding: 10px 20px;
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.hero-btn a:hover {
+    padding: 10px 20px;
+    border: 1px solid #af522a;
     color: #fff;
     background-color: #af522a;
+    animation: alternate  0.5s ease-out;
 }
 
 /****** About *****/
