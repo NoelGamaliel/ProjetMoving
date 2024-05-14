@@ -236,12 +236,17 @@ footer {
     header {
         height: 80px;
     }
+
+    nav {
+       display: none; 
+    }
+    
     /***** Section hero ******/
      .hero-content h1 {
         font-size: 1.1em;
     }
     .hero-btn a {
-        padding: 2px 5px;
+        padding: 9px 25px;
     }
 
     /****** About *****/
